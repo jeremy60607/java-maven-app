@@ -6,6 +6,7 @@ pipeline {
         stage("init") {
             steps {
                 script {
+                    echo 'auto webhook'
                     gv = load "script.groovy"
                 }
             }
